@@ -6,37 +6,34 @@
 body {
   background-image: url('./images/background.png');
   color: white;
-  font-family: 'Balsamiq Sans', cursive;
-  font-family: 'Montserrat', sans-serif;
   font-family: 'Rubik', sans-serif;
 }
-
 
 .header {
   margin-top: 20px;
   text-align: center;
-  width: 100%;
   height: 90px;
-  display: flex;
+  width: 100%;
   align-items: center;
+  display: flex;
+  text-shadow: 2px 1px 3px rgb(78, 78, 78);
   justify-content: center;
   font-size: 1.5rem;
-  text-shadow: 2px 1px 3px rgb(78, 78, 78);
 }
 
 .titlePlanetas {
   text-shadow: 1px 1px 3px gray;
-  padding: 5px;
   font-size: 2rem;
-  text-align: center;
-  margin-top: 10px;
+  padding: 5px;
   margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .cardPlanet {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   padding: 10px;
 }
 
@@ -46,18 +43,18 @@ body {
 
 .divSolar {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .divPlanetName {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  text-shadow: 1px 1px 1px gray;
+  flex-direction: column;
   margin: 5px;
-  padding: 8px;
+  text-shadow: 1px 1px 1px gray;
   font-size: 1.1rem;
+  padding: 8px;
 }
 
 .divPaiMission {
@@ -73,16 +70,16 @@ body {
 
 .divMission {
   background-color: rgba(13, 12, 20, 0.514);
-  width: 25%;
   margin: 5px;
-  padding: 15px;
+  width: 25%;
   display: flex;
-  flex-direction: column;
+  padding: 15px;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
   font-size: 1.1rem;
-  text-align: center;
+  justify-content: center;
   line-height: 25px;
+  text-align: center;
 }
 
 .nameMission {
