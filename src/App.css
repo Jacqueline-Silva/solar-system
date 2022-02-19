@@ -6,33 +6,33 @@
 body {
   background-image: url('./images/background.png');
   color: white;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik" , sans-serif;
 }
 
 .header {
   margin-top: 20px;
-  text-align: center;
   height: 90px;
-  width: 100%;
+  text-align: center;
   align-items: center;
+  width: 100%;
   display: flex;
-  text-shadow: 2px 1px 3px rgb(78, 78, 78);
   justify-content: center;
+  text-shadow: 2px 1px 3px rgb(78, 78, 78);
   font-size: 1.5rem;
 }
 
 .titlePlanetas {
-  text-shadow: 1px 1px 3px gray;
   font-size: 2rem;
-  padding: 5px;
+  text-shadow: 1px 1px 3px gray;
   margin-bottom: 10px;
+  padding: 5px;
   margin-top: 10px;
   text-align: center;
 }
 
 .cardPlanet {
-  display: flex;
   align-items: center;
+  display: flex;
   flex-direction: column;
   padding: 10px;
 }
@@ -48,12 +48,12 @@ body {
 }
 
 .divPlanetName {
-  display: flex;
   align-items: center;
+  display: flex;
   flex-direction: column;
   margin: 5px;
-  text-shadow: 1px 1px 1px gray;
   font-size: 1.1rem;
+  text-shadow: 1px 1px 1px gray;
   padding: 8px;
 }
 
@@ -71,10 +71,10 @@ body {
 .divMission {
   background-color: rgba(13, 12, 20, 0.514);
   margin: 5px;
-  width: 25%;
   display: flex;
-  padding: 15px;
+  width: 25%;
   align-items: center;
+  padding: 15px;
   flex-direction: column;
   font-size: 1.1rem;
   justify-content: center;
